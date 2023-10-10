@@ -1,0 +1,713 @@
+{
+    '*': [
+        'id',
+        'dir',
+        'slot',
+        'role',
+        'lang',
+        'class',
+        'style',
+        'title',
+        'data-*',
+        'hidden',
+        'itemprop',
+        'tabindex',
+        'translate',
+        'draggable',
+        'accesskey',
+        'spellcheck',
+        'contextmenu',
+        'autocapitalize',
+        'contenteditable'
+    ],
+
+    'a': [
+        'rel',
+        'href',
+        'ping',
+        'shape',
+        'media',
+        'target',
+        'download',
+        'hreflang',
+        'referrerpolicy'
+    ],
+    'area': [
+        'alt',
+        'rel',
+        'href',
+        'ping',
+        'shape',
+        'media',
+        'target',
+        'coords',
+        'download',
+        'hreflang',
+        'referrerpolicy'
+    ],
+    'abbr': [],
+    'audio': [
+        'src',
+        'loop',
+        'muted',
+        'preload',
+        'autoplay',
+        'buffered',
+        'controls',
+        'crossorigin'
+    ],
+    'aside': [],
+    'applet': [
+        'alt',
+        'code',
+        'align',
+        'codebase'
+    ],
+    'address': [],
+    'article': [],
+    'acronym': [],
+
+    'b': [],
+    'br': [],
+    'bdi': [],
+    'bdo': [],
+    'big': [],
+    'base': [
+        'href',
+        'target'
+    ],
+    'body': [
+        'bgcolor',
+        'background'
+    ],
+    'blink': [],
+    'button': [
+        'type',
+        'name',
+        'form',
+        'value',
+        'disabled',
+        'autofocus',
+        'formaction',
+        'formmethod',
+        'formtarget',
+        'formenctype',
+        'formnovalidate'
+    ],
+    'bgsound': [
+        'loop'
+    ],
+    'basefont': [
+        'color'
+    ],
+    'blockquote': [
+        'cite'
+    ],
+
+    'col': [
+        'span',
+        'align',
+        'bgcolor'
+    ],
+    'code': [],
+    'cite': [],
+    'canvas': [
+        'width',
+        'height'
+    ],
+    'center': [],
+    'circle': [
+        'r',
+        'cx',
+        'cy',
+        'fill',
+        'stroke',
+        'opacity',
+        'transform',
+        'stroke-width'
+    ],
+    'caption': [
+        'align'
+    ],
+    'command': [
+        'icon',
+        'type',
+        'checked',
+        'disabled',
+        'radiogroup'
+    ],
+    'content': [],
+    'colgroup': [
+        'span',
+        'align',
+        'bgcolor'
+    ],
+    'contenteditable': [
+        'inputmode',
+        'enterkeyhint'
+    ],
+
+    'dd': [],
+    'dl': [],
+    'dt': [],
+    'del': [
+        'cite',
+        'datetime'
+    ],
+    'dfn': [],
+    'dir': [],
+    'div': [],
+    'data': [
+        'value'
+    ],
+    'defs': [],
+    'dialog': [
+        'open'
+    ],
+    'details': [
+        'open'
+    ],
+    'datalist': [],
+
+    'em': [],
+    'embed': [
+        'src',
+        'type',
+        'width',
+        'height'
+    ],
+    'element': [
+        'Actually tags are all element'
+    ],
+    'ellipse': [
+        'cx',
+        'cy',
+        'rx',
+        'ry',
+        'fill',
+        'stroke',
+        'opacity',
+        'transform',
+        'stroke-width'
+    ],
+
+    'font': [
+        'color'
+    ],
+    'form': [
+        'name',
+        'target',
+        'accept',
+        'action',
+        'method',
+        'enctype',
+        'novalidate',
+        'autocomplete',
+        'accept-charset'
+    ],
+    'frame': [],
+    'footer': [],
+    'figure': [],
+    'fieldset': [
+        'name',
+        'form',
+        'disabled'
+    ],
+    'frameset': [],
+    'figcaption': [],
+    'foreignObject': [
+        'x',
+        'y',
+        'width',
+        'height',
+        'systemLanguage',
+        'requiredFeatures',
+        'requiredExtensions'
+    ],
+
+    'g': [
+        'id',
+        'fill',
+        'class',
+        'style',
+        'stroke',
+        'opacity',
+        'transform',
+        'stroke-width'
+    ],
+
+    'h1': [],
+    'h2': [],
+    'h3': [],
+    'h4': [],
+    'h5': [],
+    'h6': [],
+    'hr': [
+        'color'
+        'align',
+    ],
+    'html': [
+        'manifest'
+    ],
+    'head': [],
+    'header': [],
+    'hgroup': [],
+
+    'i': [],
+    'img': [
+        'alt',
+        'src',
+        'ismap',
+        'align',
+        'width',
+        'sizes',
+        'border',
+        'height',
+        'srcset',
+        'usemap',
+        'loading',
+        'decoding',
+        'importance',
+        'crossorigin',
+        'intrinsicsize',
+        'referrerpolicy'
+    ],
+    'ins': [
+        'cite',
+        'datetime'
+    ],
+    'image': [],
+    'input': [
+        'alt',
+        'max',
+        'min',
+        'src',
+        'form',
+        'list',
+        'name',
+        'size',
+        'step',
+        'type',
+        'value',
+        'width',
+        'height',
+        'accept',
+        'usemap',
+        'capture',
+        'checked',
+        'dirname',
+        'pattern',
+        'disabled',
+        'readonly',
+        'multiple',
+        'required',
+        'autofocus',
+        'maxlength',
+        'minlength',
+        'formaction',
+        'formmethod',
+        'formtarget',
+        'formenctype',
+        'placeholder',
+        'autocomplete',
+        'formnovalidate'
+    ],
+    'iframe': [
+        'src',
+        'csp',
+        'name',
+        'align',
+        'allow',
+        'width',
+        'height',
+        'srcdoc',
+        'loading',
+        'sandbox',
+        'importance',
+        'referrerpolicy',
+    ],
+
+    'kbd': [],
+    'keygen': [
+        'form',
+        'name',
+        'keytype',
+        'disabled',
+        'autofocus',
+        'challenge'
+    ],
+
+    'li': [
+        'value'
+    ],
+    'link': [
+        'crossorigin',
+        'href',
+        'hreflang',
+        'importance',
+        'integrity',
+        'media',
+        'referrerpolicy',
+        'rel',
+        'sizes',
+        'type'
+    ],
+    'line': [
+        'x1',
+        'y1',
+        'x2',
+        'y2',
+        'stroke',
+        'transform',
+        'stroke-width',
+        'stroke-opacity',
+        'stroke-linecap',
+        'stroke-linejoin',
+        'stroke-dasharray',
+        'stroke-dashoffset'
+    ],
+    'label': [
+        'for',
+        'form'
+    ],
+    'legend': [],
+    'listing': [],
+    'linearGradient': [
+        'id',
+        'x1',
+        'y1',
+        'x2',
+        'y2',
+        'spreadMethod',
+        'gradientUnits',
+        'gradientTransform'
+    ],
+
+    'map': [
+        'name'
+    ],
+    'main': [],
+    'mark': [],
+    'mask': [
+        'x',
+        'y',
+        'id',
+        'width',
+        'height',
+        'mask-type',
+        'maskUnits',
+        'maskContentUnits'
+    ],
+    'math': [],
+    'menu': [
+        'type'
+    ],
+    'meta': [
+        'charset',
+        'content',
+        'http-equiv',
+        'name'
+    ],
+    'meter': [
+        'form',
+        'high',
+        'low',
+        'max',
+        'min',
+        'optimum',
+        'value'
+    ],
+    'marquee': [
+        'bgcolor',
+        'loop'
+    ],
+    'multicol': [],
+    'menuitem': [],
+
+    'nav': [],
+    'nobr': [],
+    'nextid': [],
+    'noembed': [],
+    'noscript': [],
+    'noframes': [],
+
+    'ol': [
+        'reversed',
+        'start'
+    ],
+    'option': [
+        'disabled',
+        'label',
+        'selected',
+        'value'
+    ],
+    'object': [
+        'border',
+        'data',
+        'form',
+        'height',
+        'name',
+        'type',
+        'usemap',
+        'width'
+    ],
+    'output': [
+        'for',
+        'form',
+        'name'
+    ],
+    'optgroup': [
+        'disabled',
+        'label'
+    ],
+
+    'p': [],
+    'pre': [
+        'd',
+        'fill',
+        'stroke',
+        'fill-rule',
+        'transform',
+        'stroke-width',
+        'fill-opacity',
+        'stroke-opacity',
+        'stroke-linecap',
+        'stroke-linejoin',
+        'stroke-dasharray'
+    ],
+    'param': [
+        'name',
+        'value'
+    ],
+    'portal': [],
+    'picture': [],
+    'polygon': [
+        'fill',
+        'points',
+        'stroke',
+        'fill-rule',
+        'transform',
+        'stroke-width',
+        'fill-opacity',
+        'stroke-linecap',
+        'stroke-opacity',
+        'stroke-linejoin',
+        'stroke-dasharray'
+    ],
+    'pattern': [
+        'x',
+        'y',
+        'id',
+        'width',
+        'height',
+        'viewBox',
+        'patternUnits',
+        'patternTransform',
+        'patternContentUnits'
+    ],
+    'polyline': [
+        'fill',
+        'points',
+        'stroke',
+        'transform',
+        'stroke-width',
+        'fill-opacity',
+        'stroke-linecap',
+        'stroke-opacity',
+        'stroke-linejoin',
+        'stroke-dasharray'
+    ],
+    'progress': [
+        'form',
+        'max',
+        'value'
+    ],
+    'plaintext': [],
+
+    'q': [
+        'cite',
+        'title'
+    ],
+
+    'rb': [],
+    'rp': [],
+    'rt': [],
+    'rbc': [],
+    'rtc': [],
+    'rect': [],
+    'ruby': [],
+    'radialGradient': [],
+
+    's': [],
+    'sub': [],
+    'sup': [],
+    'svg': [],
+    'slot': [],
+    'samp': [],
+    'span': [],
+    'stop': [],
+    'small': [],
+    'style': [
+        'media',
+        'scoped',
+        'type'
+    ],
+    'script': [
+        'async',
+        'charset',
+        'crossorigin',
+        'defer',
+        'importance',
+        'integrity',
+        'language',
+        'referrerpolicy',
+        'src',
+        'type'
+    ],
+    'select': [
+        'autocomplete',
+        'autofocus',
+        'disabled',
+        'form',
+        'multiple',
+        'name',
+        'required',
+        'size'
+    ],
+    'shadow': [],
+    'section': [],
+    'source': [
+        'media',
+        'sizes',
+        'src',
+        'srcset',
+        'type'
+    ],
+    'spacer': [],
+    'strike': [],
+    'strong': [],
+    'search': [],
+    'section': [],
+    'summary': [],
+
+    'tt': [],
+    'tr': [
+        'align',
+        'bgcolor'
+    ],
+    'td': [
+        'align',
+        'background',
+        'bgcolor',
+        'colspan',
+        'headers',
+        'rowspan'
+    ],
+    'th': [
+        'align',
+        'background',
+        'bgcolor',
+        'colspan',
+        'headers',
+        'rowspan',
+        'scope'
+    ],
+    'text': [
+        'x',
+        'y',
+        'fill',
+        'opacity',
+        'transform',
+        'font-size',
+        'font-family',
+        'font-weight',
+        'text-anchor',
+        'alignment-baseline'
+    ],
+    'time': [
+        'datetime'
+    ],
+    'table': [
+        'align',
+        'background',
+        'bgcolor',
+        'border',
+        'summary'
+    ],
+    'tbody': [
+        'align',
+        'bgcolor'
+    ],
+    'tfoot': [
+        'align',
+        'bgcolor'
+    ],
+    'thead': [
+        'align'
+    ],
+    'title': [],
+    'track': [
+        'default',
+        'kind',
+        'label',
+        'src',
+        'srclang'
+    ],
+    'tspan': [
+        'x',
+        'y',
+        'dx',
+        'dy',
+        'fill',
+        'rotate',
+        'opacity',
+        'font-size',
+        'font-weight',
+        'font-family',
+        'text-anchor',
+        'text-transform',
+        'text-decoration',
+        'alignment-baseline'
+    ],
+    'textarea': [
+        'autocomplete',
+        'autofocus',
+        'cols',
+        'dirname',
+        'disabled',
+        'enterkeyhint',
+        'form',
+        'inputmode',
+        'maxlength',
+        'minlength',
+        'name',
+        'placeholder',
+        'readonly',
+        'required',
+        'rows',
+        'wrap'
+    ],
+    'template': [],
+
+    'u': [],
+    'ul': [],
+
+    'var': [],
+    'video': [
+        'autoplay',
+        'buffered',
+        'controls',
+        'crossorigin',
+        'height',
+        'loop',
+        'muted',
+        'poster',
+        'preload',
+        'src',
+        'width'
+    ],
+
+    'wbr': [],
+
+    'xmp': []
+}
